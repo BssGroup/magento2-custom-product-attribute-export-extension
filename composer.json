@@ -1,0 +1,24 @@
+{
+    "name": "bsscommerce/module-custom-product-attribute-export",
+    "description": "Bss Custom Product Attribute Export Modules",
+    "require": {
+        "php": "~5.5.0|~5.6.0|~7.0.0"
+    },
+    "type": "magento2-module",
+    "version": "1.0.4",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "suggest": {
+        "magento/module-cookie": "100.0.*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Bss\\CustomProductAttributeExport\\": ""
+        }
+    }
+}
