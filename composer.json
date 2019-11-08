@@ -2,10 +2,10 @@
     "name": "bsscommerce/magento-2-custom-product-attribute-export-extension",
     "description": "Bss Custom Product Attribute Export Modules",
     "require": {
-        "php": "~5.5.0|~5.6.0|~7.0.0|~7.1.0"
+        "php": "~5.5.0|~5.6.0|~7.0.0|~7.1.*|7.2.*"
     },
     "type": "magento2-module",
-    "version": "1.0.4",
+    "version": "1.0.4.1",
     "license": [
         "OSL-3.0",
         "AFL-3.0"
